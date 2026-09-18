@@ -18,7 +18,8 @@ choose **Open**, and confirm the prompt.
 ## Install
 
 1. Download the DMG and its `.sha256` file from the selected prerelease.
-2. In Terminal, run `shasum -a 256 -c Glance-0.2.0-beta.1-arm64.dmg.sha256`.
+2. In Terminal, `cd` to the download directory and run `shasum -a 256 -c`
+   against the downloaded `.sha256` file.
 3. Open the DMG and drag the single `Glance.app` into Applications.
 
 Glance, Lander, the terminal and OCR helpers, Code Mode worker, and local models
