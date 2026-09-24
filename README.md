@@ -7,13 +7,11 @@ not published here.
 
 - Apple Silicon Mac
 - macOS 13 or newer
-- Approximately 3 GiB of free disk space for the application and its bundled
-  local models
+- Approximately 3 GiB for the application, plus space for updates and optional
+  on-device model downloads
 
-The beta is ad-hoc signed but does not have a Developer ID signature and is not
-notarized. macOS may display a Gatekeeper warning after download. If you trust
-the checksum and this release repository, open Finder, Control-click Glance,
-choose **Open**, and confirm the prompt.
+Current builds require a Developer ID signature and Apple notarization/stapling.
+Do not bypass Gatekeeper for an unexpected signature or notarization failure.
 
 ## Install
 
@@ -22,16 +20,25 @@ choose **Open**, and confirm the prompt.
    against the downloaded `.sha256` file.
 3. Open the DMG and drag the single `Glance.app` into Applications.
 
-Glance, Lander, the terminal and OCR helpers, Code Mode worker, and local models
-are all contained in that one application bundle. Nothing is installed as a
-separate service or application. Updates are installed manually from this
-repository.
+Glance, Lander, the normalizer helper and Code Mode worker are contained in that
+one application bundle; terminal hosting runs inside Lander. Nothing is installed
+as a separate service or application. Optional models are downloaded only after
+your authorization and are not bundled in the application.
+
+Updater-capable installations offer signed in-place updates with explicit
+restart consent. The release ZIP contains the entire signed/stapled application,
+not a frontend-only patch. `update-manifest.json` and its detached Ed25519
+signature authorize the exact ZIP using the public key embedded in your installed
+app. `beta-mac.yml` or `latest-mac.yml` accompanies each release for updater
+interoperability. Do not replace the trusted key with a downloaded key or install
+an expired/tampered update. Older installations without updater support, and
+installations affected by a signing-key rotation, require a new DMG install.
 
 ## Bundled beta functionality
 
 The Apple-Silicon beta includes the local Lander backend, the browser-accessible
-Glance UI, isolated browser surfaces, microphone dictation, terminal and OCR
-helpers, and contained Code Mode execution. The Reason-ModernColBERT model is
+Glance UI, isolated browser surfaces, microphone dictation, embedded terminal hosting,
+normalization, and contained Code Mode execution. The Reason-ModernColBERT model is
 distributed under CC-BY-NC-4.0; downstream use remains subject to its bundled
 license.
 
