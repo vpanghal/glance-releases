@@ -18,7 +18,7 @@ of specialist agents as your needs grow.
 Start in a local workspace, then connect a provider, register a model, publish
 a coding agent, and ask it to explain a repository.
 
-https://github.com/user-attachments/assets/0f0a8020-c904-4e04-b44b-54c003bc49ca
+https://github.com/user-attachments/assets/8c8f35bf-7118-4678-a9f0-d4c7a1730bdb
 
 ## Agents
 
