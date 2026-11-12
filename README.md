@@ -18,6 +18,8 @@ of specialist agents as your needs grow.
 See how to connect a provider, register a model, publish a coding agent, and ask
 it to explain a repository.
 
+https://github.com/user-attachments/assets/0f0a8020-c904-4e04-b44b-54c003bc49ca
+
 ## Agents
 
 Create the agent you need by combining a model, instructions, skills, and access
