@@ -13,6 +13,11 @@ of specialist agents as your needs grow.
 · [What's new in 0.3](https://github.com/vpanghal/glance-releases/releases/tag/v0.3.0)
 · [Get started](#try-your-first-agent)
 
+## Watch the Glance demo
+
+See how to connect a provider, register a model, publish a coding agent, and ask
+it to explain a repository.
+
 ## Agents
 
 Create the agent you need by combining a model, instructions, skills, and access
