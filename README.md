@@ -10,7 +10,7 @@ Start with one agent and a task. Add knowledge, connect tools, and build a team
 of specialist agents as your needs grow.
 
 **[Download Glance for Mac](https://github.com/vpanghal/glance-releases/releases)**
-· [What's new in 0.3](https://github.com/vpanghal/glance-releases/releases/tag/v0.3.0)
+· [What's new in 0.6.0](https://github.com/vpanghal/glance-releases/releases/tag/v0.6.0)
 · [Get started](#try-your-first-agent)
 
 ## Watch the Glance demo
@@ -19,6 +19,10 @@ Start in a local workspace, then connect a provider, register a model, publish
 a coding agent, and ask it to explain a repository.
 
 https://github.com/user-attachments/assets/8c8f35bf-7118-4678-a9f0-d4c7a1730bdb
+
+### Browser agent demo
+
+[Watch the browser agent demo (MP4)](https://raw.githubusercontent.com/vpanghal/glance-releases/29df366b41b749715317759b004fce346bcae0e9/glance-browser-agent-demo.mp4)
 
 ## Agents
 
