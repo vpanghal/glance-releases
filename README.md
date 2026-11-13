@@ -20,7 +20,7 @@ a coding agent, and ask it to explain a repository.
 
 https://github.com/user-attachments/assets/8c8f35bf-7118-4678-a9f0-d4c7a1730bdb
 
-### Browser agent demo
+### Watch the browser agent demo
 
 [Watch the browser agent demo (MP4)](https://raw.githubusercontent.com/vpanghal/glance-releases/29df366b41b749715317759b004fce346bcae0e9/glance-browser-agent-demo.mp4)
 
