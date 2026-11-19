@@ -10,7 +10,7 @@ Start with one agent and a task. Add knowledge, connect tools, and build a team
 of specialist agents as your needs grow.
 
 **[Download Glance for Mac](https://github.com/vpanghal/glance-releases/releases)**
-· [What's new in 0.6.0](https://github.com/vpanghal/glance-releases/releases/tag/v0.6.0)
+· [What's new in 0.7.0](https://github.com/vpanghal/glance-releases/releases/tag/v0.7.0)
 · [Get started](#try-your-first-agent)
 
 ## Watch the Glance demo
