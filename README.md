@@ -30,7 +30,7 @@ Install an on-device embedding model, index a folder of local PDFs, and create
 an agent that answers with citations. Open a cited passage and see how to
 reference a specific PDF with `@` in chat.
 
-[Download the PDF Agent demo (MP4, 2:12)](https://raw.githubusercontent.com/vpanghal/glance-releases/ab74e83404065803111085caef2c91e46477a4b9/glance-pdf-agent-demo.mp4)
+https://github.com/user-attachments/assets/6f2e67a1-f6b9-425a-8a5b-ed4901d47a7d
 
 ## Agents
 
